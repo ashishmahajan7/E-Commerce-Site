@@ -2,7 +2,7 @@ package com.eCommerce;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import com.admin.AdminLogin1;
+import com.admin.AdminLogin;
 
 public class RunApplication {
 	
@@ -35,7 +35,7 @@ public class RunApplication {
 			 break;
 			 
 		 case 2:{
-             AdminLogin1 al = new AdminLogin1();
+             AdminLogin al = new AdminLogin();
 			 al.adminLogin();
 		 }
 			 break;
@@ -49,4 +49,6 @@ public class RunApplication {
 
 	}
 
+	
+	
 }
